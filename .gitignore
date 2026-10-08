@@ -1,0 +1,40 @@
+# -- Python Backend ------------------------------------------
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+
+# SQLite database (regenerated at runtime)
+*.db
+*.sqlite3
+
+# Uploaded PDF files (user data — not for version control)
+backend/uploads/
+
+# Environment variables (contains API keys — NEVER commit)
+.env
+.env.*
+!.env.example
+
+# Python egg / dist info
+*.egg-info/
+dist/
+build/
+
+# -- Frontend -------------------------------------------------
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+
+# Log files
+*.log
+npm-debug.log*
+
+# Editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
